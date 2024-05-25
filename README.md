@@ -1,3 +1,5 @@
+Weblogic 12 comfigurando maven el que esta incorporado en el servidor 
+
 Maven Home mi equipo
 C:\u01\app\obp\oracle_common\modules\thirdparty\apache-maven_bundle\3.6.1.0.0\apache-maven-3.6.1
 
@@ -8,6 +10,8 @@ Ejemplo de internet
 
 ![image](https://github.com/ingla2020/LoginCsmApiRestWeblogic12/assets/22874119/8303c5e4-86da-4796-ad83-a92eda213a40)
 
+
+Subida del war a Weblogic 12
 
 ![image](https://github.com/ingla2020/LoginCsmApiRestWeblogic12/assets/22874119/af4ce8ae-becd-47f2-8c75-08f6742dc18d)
 
@@ -24,6 +28,8 @@ Ejemplo de internet
 
 ![image](https://github.com/ingla2020/LoginCsmApiRestWeblogic12/assets/22874119/87d8df8f-4e96-49be-b661-6bf20f5d001e)
 
+Ejemplo de Funcionamiento
+
 Empresa xxx
 xxxxxprod = produccion
 xxxxxhomo = homologacion
@@ -31,6 +37,9 @@ xxxxxhomo = homologacion
 2 da Empresa xxx
 xxxxxprod = produccion
 xxxxxhomo = homologacion
+
+ejemplo
+webservices para invocar : wconsdeclaracion
 
 GET
 http://10.0.2.15:7001/csm/iveccoprod/token?servicio=wconsdeclaracion&gentime=2024-05-25 15:30:00&exptime=2024-05-25 15:38:00
